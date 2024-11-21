@@ -61,14 +61,8 @@ build CMakeFiles/Leetcode.dir/69_sqrt(x).c.obj: C_COMPILER__Leetcode_unscanned_D
   OBJECT_DIR = CMakeFiles\Leetcode.dir
   OBJECT_FILE_DIR = CMakeFiles\Leetcode.dir
 
-build CMakeFiles/Leetcode.dir/35-search-insert-position.c.obj: C_COMPILER__Leetcode_unscanned_Debug C$:/Users/Renan/CLionProjects/Leetcode/35-search-insert-position.c || cmake_object_order_depends_target_Leetcode
-  DEP_FILE = CMakeFiles\Leetcode.dir\35-search-insert-position.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Leetcode.dir
-  OBJECT_FILE_DIR = CMakeFiles\Leetcode.dir
-
-build CMakeFiles/Leetcode.dir/28-find-index-occounrce.c.obj: C_COMPILER__Leetcode_unscanned_Debug C$:/Users/Renan/CLionProjects/Leetcode/28-find-index-occounrce.c || cmake_object_order_depends_target_Leetcode
-  DEP_FILE = CMakeFiles\Leetcode.dir\28-find-index-occounrce.c.obj.d
+build CMakeFiles/Leetcode.dir/35._Search_Insert_Position.c.obj: C_COMPILER__Leetcode_unscanned_Debug C$:/Users/Renan/CLionProjects/Leetcode/35.$ Search$ Insert$ Position.c || cmake_object_order_depends_target_Leetcode
+  DEP_FILE = CMakeFiles\Leetcode.dir\35._Search_Insert_Position.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Leetcode.dir
   OBJECT_FILE_DIR = CMakeFiles\Leetcode.dir
@@ -85,6 +79,18 @@ build CMakeFiles/Leetcode.dir/26-remove-duplicates.c.obj: C_COMPILER__Leetcode_u
   OBJECT_DIR = CMakeFiles\Leetcode.dir
   OBJECT_FILE_DIR = CMakeFiles\Leetcode.dir
 
+build CMakeFiles/Leetcode.dir/28.Find_the_Index_of_the_First_Occurrence_in_a_String.c.obj: C_COMPILER__Leetcode_unscanned_Debug C$:/Users/Renan/CLionProjects/Leetcode/28.Find$ the$ Index$ of$ the$ First$ Occurrence$ in$ a$ String.c || cmake_object_order_depends_target_Leetcode
+  DEP_FILE = CMakeFiles\Leetcode.dir\28.Find_the_Index_of_the_First_Occurrence_in_a_String.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Leetcode.dir
+  OBJECT_FILE_DIR = CMakeFiles\Leetcode.dir
+
+build CMakeFiles/Leetcode.dir/1929._Concatenation_of_Array.c.obj: C_COMPILER__Leetcode_unscanned_Debug C$:/Users/Renan/CLionProjects/Leetcode/1929.$ Concatenation$ of$ Array.c || cmake_object_order_depends_target_Leetcode
+  DEP_FILE = CMakeFiles\Leetcode.dir\1929._Concatenation_of_Array.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Leetcode.dir
+  OBJECT_FILE_DIR = CMakeFiles\Leetcode.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Leetcode
@@ -93,7 +99,7 @@ build CMakeFiles/Leetcode.dir/26-remove-duplicates.c.obj: C_COMPILER__Leetcode_u
 #############################################
 # Link the executable Leetcode.exe
 
-build Leetcode.exe: C_EXECUTABLE_LINKER__Leetcode_Debug CMakeFiles/Leetcode.dir/367_valid_perfect_square.c.obj CMakeFiles/Leetcode.dir/69_sqrt(x).c.obj CMakeFiles/Leetcode.dir/35-search-insert-position.c.obj CMakeFiles/Leetcode.dir/28-find-index-occounrce.c.obj CMakeFiles/Leetcode.dir/27-remove_element.c.obj CMakeFiles/Leetcode.dir/26-remove-duplicates.c.obj
+build Leetcode.exe: C_EXECUTABLE_LINKER__Leetcode_Debug CMakeFiles/Leetcode.dir/367_valid_perfect_square.c.obj CMakeFiles/Leetcode.dir/69_sqrt(x).c.obj CMakeFiles/Leetcode.dir/35._Search_Insert_Position.c.obj CMakeFiles/Leetcode.dir/27-remove_element.c.obj CMakeFiles/Leetcode.dir/26-remove-duplicates.c.obj CMakeFiles/Leetcode.dir/28.Find_the_Index_of_the_First_Occurrence_in_a_String.c.obj CMakeFiles/Leetcode.dir/1929._Concatenation_of_Array.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Leetcode.dir

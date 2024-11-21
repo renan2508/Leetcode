@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int searchInsert(int* nums, int numsSize, int target) {
+int searchInsert(const int* nums, const int numsSize, const int target) {
     
     for(int i = 0;i<numsSize;i++){
         if(nums[i] == target){
@@ -17,10 +17,10 @@ int searchInsert(int* nums, int numsSize, int target) {
 
 int main(){
 
-    int nums[] = {2, 3, 5, 6};
-    int numsSize = sizeof(nums) / sizeof(nums[0]);
-    int target = 7;
-    int idk = searchInsert(nums, numsSize, target);
+    const int nums[] = {2, 3, 5, 6};
+    const int numsSize = sizeof(nums) / sizeof(nums[0]);
+    const int target = 7;
+    const int idk = searchInsert(nums, numsSize, target);
     printf("%d", idk);
     return 0;
 }
